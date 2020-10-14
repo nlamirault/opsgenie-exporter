@@ -1,6 +1,6 @@
 # Opsgenie Prometheus Exporter
 
-A Prometheus exporter for the Bbox Miami, a Set-Top-Box (TV box) provided by French Internet Service Provider Bouygues Telecom.
+A Prometheus exporter for Opsgenie.
 
 [![License Apache 2][badge-license]](LICENSE)
 
@@ -9,16 +9,6 @@ Metrics are :
 | Name                                               | Exposed informations                                  | Labels               |
 | -------------------------------------------------- | ------------------------------------------------------| ---------------------|
 | `opsgenie_up`                                      | Was the last query of Opsgenie successful.            |
-
-
-## Installation
-
-You can download the binaries :
-
-* Architecture amd64 [ [linux](https://bintray.com/artifact/download/nlamirault/oss/opsgenie-exporter-0.1.0_linux_amd64) / [darwin](https://bintray.com/artifact/download/nlamirault/oss/opsgenie-exporter-0.1.0_darwin_amd64) / [windows](https://bintray.com/artifact/download/nlamirault/oss/opsgenie-exporter-0.1.0_windows_amd64.exe) ]
-* Architecture arm [ [linux](https://bintray.com/artifact/download/nlamirault/oss/opsgenie-exporter-0.1.0_linux_arm) ]
-* Architecture arm64 [ [linux](https://bintray.com/artifact/download/nlamirault/oss/opsgenie-exporter-0.1.0_linux_arm) ]
-
 
 ## Usage
 

@@ -84,9 +84,9 @@ func main() {
 	http.Handle(metricsPath, promhttp.HandlerFor(registry, promhttp.HandlerOpts{}))
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte(`<html>
-             <head><title>Pingdom Exporter</title></head>
+             <head><title>Opsgenie Exporter</title></head>
              <body>
-             <h1>Pingdom Exporter</h1>
+             <h1>Opsgenie Exporter</h1>
              <p><a href='` + metricsPath + `'>Metrics</a></p>
              </body>
              </html>`))
